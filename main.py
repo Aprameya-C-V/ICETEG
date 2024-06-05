@@ -9,12 +9,12 @@ st.markdown("""
             text-align: center;
         }
         .hero-title {
-            font-size: 60px;
+            font-size: 50px;
             font-weight: bold;
             color: #0047bb;
         }
         .hero-subtitle {
-            font-size: 24px;
+            font-size: 20px;
             color: #333;
         }
         .nav-bar {
@@ -48,7 +48,7 @@ with col2:
 # Hero section
 st.markdown("""
     <div class="hero-section">
-        <div class="hero-title">ICETEG - 2025</div>
+        <div class="hero-title">IEEE JSS STU ICETEG - 2025</div>
         <div class="hero-subtitle">International Conference on Emerging Technologies in Electronics and Green Energy</div>
     </div>
 """, unsafe_allow_html=True)
@@ -78,19 +78,18 @@ IEEE JSS STU ICETEG – 2025 is a premier international conference technically s
 The theme for ICETEG – 2025 is to promote the most upcoming innovations and advancements in various fields of engineering and technology, bringing together academia and industry. This conference provides an excellent opportunity for faculty members, research scholars, students, and industry delegates to present, demonstrate, and discuss innovative research developments in the fields of electronics, communication, green energy, computing technology, and biomedical applications.
 """)
 
-# Registration Fees section
 section_anchor("registration-fees")
 st.header("Registration Fees")
 st.write("""
-| Category                      | Early Bird Registration | Regular Registration | Late Registration    |
-|-------------------------------|-------------------------|----------------------|----------------------|
-|                               | Indian Author (INR) | Foreign Author (USD) | Indian Author (INR) | Foreign Author (USD) | Indian Author (INR) | Foreign Author (USD) |
-| IEEE Member                   | 7000                | 160                | 8000                | 200                | 9500                | 220                |
-| Non-IEEE Member               | 8500                | 200                | 10000               | 220                | 12000               | 240                |
-| Co-author/Listener/Attendee   | 5500                | 65                 | 4000                | 75                 | 4500                | 85                 |
-| Extra Certificate             | 800                 | 15                 | 1000                | 25                 | 1500                | 30                 |
+| Category                   | Early Bird Registration |                   | Regular Registration |                    | Late Registration  |                    |
+|----------------------------|-------------------------|-------------------|----------------------|--------------------|--------------------|--------------------|
+|                            | Indian Author in INR    | Foreign Author in USD | Indian Author in INR | Foreign Author in USD | Indian Author in INR | Foreign Author in USD |
+| IEEE Member                | 7000                    | 160               | 8000                 | 200                | 9500               | 220                |
+| Non-IEEE Member            | 8500                    | 200               | 10000                | 220                | 12000              | 240                |
+| Co-author/listener/Attendee| 5500                    | 65                | 4000                 | 75                 | 4500               | 85                 |
+| Extra Certificate          | 800                     | 15                | 1000                 | 25                 | 1500               | 30                 |
 
-Note: Above registration fees are excluding GST (18%).
+Above registration fee is excluding GST (18%).
 """)
 
 # Topics of Interest section
