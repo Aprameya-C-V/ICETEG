@@ -1,7 +1,5 @@
 import streamlit as st
 
-st.set_page_config(layout="wide")
-
 # CSS for custom styling
 st.markdown("""
     <style>
