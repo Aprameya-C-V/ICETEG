@@ -195,10 +195,3 @@ st.write("""
 - Dr. Nanda S
 """)
 
-# Footer
-st.markdown("""
-    <div class="footer" style="font-size: 18px; font-weight: bold;">
-        Created by Aprameya C V
-    </div>
-""", unsafe_allow_html=True)
-
